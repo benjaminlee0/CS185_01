@@ -1,0 +1,54 @@
+.MainDiv {
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+a:link{
+    color: rgb(6, 11, 80);
+    font-family: 'Cambria';
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(6, 11, 80);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.Thanks p {
+    text-align: center;
+}
+
+.LinkDiv{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 250px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.Links {
+    text-align: center;
+}
+
+.ImageDiv {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 32px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+
+.Pic {
+    width: 99%;
+    height: 99%;
+}
