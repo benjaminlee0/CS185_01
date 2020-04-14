@@ -23,12 +23,16 @@ a:hover{
     text-align: center;
 }
 
+.Song p {
+    text-align: center;
+}
+
 .LinkDiv{
     height: 100%;
     width: 50%;
     position: fixed;
     z-index: 1;
-    top: 250px;
+    top: 150px;
     overflow-x: hidden;
     padding-top: 20px;
 }
