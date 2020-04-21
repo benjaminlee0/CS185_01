@@ -1,7 +1,7 @@
 .MainDiv {
-    width: 50%;
-    position: fixed;
-    overflow-x: hidden;
+    display: grid;
+    grid-auto-rows: 1;
+    grid-auto-columns: 2;
 }
 
 a:link{
@@ -28,13 +28,9 @@ a:hover{
 }
 
 .LinkDiv{
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 150px;
-    overflow-x: hidden;
-    padding-top: 20px;
+    grid-row: 1;
+    grid-column: 1;
+    float: left;
 }
 
 .Links {
@@ -42,17 +38,14 @@ a:hover{
 }
 
 .ImageDiv {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 32px;
-    overflow-x: hidden;
-    padding-top: 20px;
-    right: 0;
+    justify-self: flex-end;
+    grid-row: 1;
+    grid-column: 2;
 }
 
 .Pic {
-    width: 99%;
-    height: 99%;
+    height: 100%;
+    width: 100%;
+    min-width: 600px;
+    min-height: 600px;
 }
